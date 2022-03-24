@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="request.php" method="post">
+        <label for="name">Name</label> 
+        <input type="text" name="stu_name" id="name" required placeholder="name">
+         <br> <br>  
+        <label for="email">Email</label>
+        <input type="email" name="stu_email" id="email" placeholder="email">
+         <br> <br> 
+        <label for="password">Password</label>
+        <input type="password" name="stu_password" id="password" placeholder="password"> 
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="stu_phone" id="phone" placeholder="phone">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" name="stu_passport" id="passport" accept="image/*">
+        <br><br>
+        <label for="year">Year</label>
+        <select name="stu_year" id="year">
+        <option value="">Choose Year</option>
+        <option value="1">First year</option>
+        <option value="2">Second Year</option>
+        <option value="3">Third Year</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="male"><label for="gender">Male</label>
+        <input type="radio" name="gender" id="female"><label for="gender">Female</label>
+        <br><br>
+        <label for="">Hobbies</label> <br>
+        <input type="checkbox" name="animation" id="animation"><label for="animation">Aniamtion</label> 
+        <input type="checkbox" name="bonsai" id="bonsai"><label for="bonsai">Bonsai</label> 
+        <input type="checkbox" name="travelling" id="travelling"><label for="travelling">Travelling</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu_address" id="address" cols="30" rows="5"></textarea>
+        <br><br>
+        <input type="time">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="week">
+        <input type="color">
+        <input type="range" min="0" max="100" value="20">
+        <input type="text" value="I am Programmer" readonly>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
