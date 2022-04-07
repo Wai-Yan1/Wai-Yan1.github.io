@@ -34,7 +34,7 @@
     </table>
 
     <script>
-        let myData = '';
+        // let myData = '';
         let n = 1;
         function done() {
             //alert('hello');  
@@ -42,19 +42,12 @@
             console.log(name);
             let age = document.querySelector('#age').value;
             console.log(age);            
-            myData += `<tr>
+            let tbody = document.querySelector('#tbody');
+            tbody.innerHTML += `<tr>
                 <td>${n++}</td>
                     <td>${name}</td>
                     <td>${age}</td>
-                </tr>`
-
-
-            console.log(myData);
-            let tbody = document.querySelector('#tbody');
-            tbody.innerHTML = myData;
-
-
-
+                </tr>`       
         }
     </script>
 </body>
