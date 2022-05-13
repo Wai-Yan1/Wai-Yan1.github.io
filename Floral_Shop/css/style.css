@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.brandname{
+    position: relative;
+    top: -55px;
+    left: 85px;
+    font-family: lobster;
+    font-size: 20px;
+}
+.navbar ul{
+    float: right;
+}
+.navbrand{
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+@font-face{
+    src: url(../Lobster/Lobster-Regular.ttf);
+    font-family: lobster;
+}
+.cart{
+    position: relative;
+    top: -15px;
+    left: -6px;
+    background-color: black;
+    padding: 0px 5px;
+    color: white;
+    border-radius: 50%;
+}
+.navbar ul li a:hover{
+    color: #3091bb;
+    display: inline-block;
+    transform: translate(4px, -5px);
+    transition-duration: 0.5ms;
+}
+.navbar{
+    height: 90px;
+}
+/* background */
+.img{
+    width: 100%;
+}
+
+.background_text{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.title{
+    font-family: Lobster;
+    font-weight: unset;
+    margin-bottom: 15px;
+}
+.shop_btn{
+    border: 1px solid #3091bb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #3091bb;
+}
+.shop_btn:hover{
+    background-color: #3091bb;
+    color: white;
+}
+/* product */
+.product{
+    text-align: center;
+    margin-top: 50px;
+}
+.divided{
+    width: 100px;
+    margin: auto;
+    border: 1px solid #3091bb;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-gap: 40px;
+    text-align: center;
+}
+.product_img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgb(0, 0, .17);
+}
+.addtocart{
+    border: 1px solid beige;
+    background-color: beige;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.addtocart:hover{
+    cursor: pointer;
+}
+.line{
+    width: 20px;
+    margin: auto;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.back{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    color: white;   
+    background-image: url(../images/red.jpg);
+    width: 100%;
+    height: 50px;
+    padding: 65px 80px 65px 10px ;
+}
+.packaging{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.packaging img{
+    width: 45%;
+    float: left;
+}
+.packaging_text{
+    position: relative;
+    left: 50px;
+    width: 88%;
+    text-align: justify;
+}
+.fa-circle-arrow-right{
+    padding-right: 10px;
+}
+.packaging_header{
+    margin-top: 20px;
+}
+.clear{
+    clear: both;
+}
+
+/* /* Start Service / */
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #e1ecee;
+    padding-top: 30px;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.service div p{
+    display: inline-block;
+    padding-left: 20px;
+}
+.service div p b{
+    font-size: 20px;
+}
+/* / End of Service / */
+/* / Footer / */
+.footer{
+    background-color: #212529;
+}
+.footer_nav{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-top: 50px;
+    margin: 20px 20px;
+}
+.designed_by{
+    color: white ;
+}
+.footer_icon{
+    color: white;
+    margin: 20px 10px 0px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+/* / End of footer / */
+/* / Start of Contact / */
+.contact{
+    background-color: #e1ecee;
+    text-align: center;
+}
+.contact h1{
+    padding: 40px 0px;
+}
+.contact_us{
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px;
+    text-align: center;
+    margin-top: 80px;
+    grid-column-gap: 50px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.contact_us div{
+    background-color: #f6f7f7;
+    padding: 30px;
+    border-radius: 5px;
+}
+.contact_us div p{
+    font-weight: bold;
+}
+.message{
+    display: grid;
+    grid-template-columns: 500px auto;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-column-gap: 50px;
+}
+input[type="text"],input[type="email"]{
+    width: 100%;
+    height: 35px;
+}
+#message{
+    width: 100%;
+    height: 100px;
+}
+.contact_label{
+    margin-top: 20px;
+    display: inline-block;
+}
+.send{
+    float: right;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.message div iframe{
+    margin-top: 75px;
+}
+/* / End of contact */ */
+
+/* Blog */
+
+.text{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.fontsize{
+  
+    text-align: center;
+    background-color: #e1ecee;
+    padding: 40px 0px;
+}
+.blogmain div{
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid #3091bb;
+    
+}
+.blogmain{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    grid-gap: 20px;
+    width: 100%;
+    /* grid-column-gap: 15px;
+    padding-left: 20px; */
+   
+}
+.blogmain div img{
+    width: 100%;
+    height: 400px;
+    
+}
+.date{
+    padding-right: 275px;
+}
+.blogfont{
+   text-decoration: none;
+   color: black;
+}
+
+.blogfont:hover{
+    color: #3091bb;
+}
+.read{
+    margin-top: 50px;
+    
+}
+.read a{
+    text-decoration: none;
+    color: black;
+}
+
+/* SHOP */
+
+.shopmain{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    
+}
+.shopmain img{
+    width: 100%;
+    height: 360px;
+}
+.shopmain div{
+    border: 1px solid #3091bb ;
+    
+}
+.shopmain div p {
+   margin-bottom: 20px;
+   /* margin-top: 20px; */
+}
+.shopmain div h4{
+    margin-top: 10px;
+}
+.button{
+    text-decoration: none;
+    color: rgb(221, 74, 99);
+    font-size: 20px;
+}
+.text{
+    margin-left: 20px;
+    margin-top: 20px;
+}
